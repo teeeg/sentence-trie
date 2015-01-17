@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Georgia;
+}
+
+body {
+  margin: 50px auto;
+  max-width: 900px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 3em;
+  width: 100%;
+  color: CornflowerBlue;
+  text-align: center;
+}
+
+p {
+  margin: 0 auto;
+  width: 69%;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+
+span.word {
+  position: relative;
+  float: left;
+  color: grey;
+  padding: .25em .5em;
+  margin: 6px 6px;
+  font-size: 1.3em;
+  background-color: lightgrey;
+  border-radius: .5em;
+}
+
+span.word:hover {
+  cursor: hand;
+  box-shadow: 0 2px 5px grey;
+}
+
+div.sentence-container {
+  margin: 25px 0;
+  width: 100%;
+  border: 1px solid lightgrey;
+  min-height: 3em;
+  overflow: hidden;
+}
+
+div.dictionary {
+  margin: 2% 2% 0;
+  width: 96%;
+}
+
+span.word-close {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  position: absolute;
+  font-family: arial;
+  font-size: 15px;
+  line-height: 11px;
+  text-align: center;
+  color: #CC0033;
+  top: 0;
+  left: -2px;
+  visibility: hidden;
+  /*background-color: #CC0033;*/
+}
+
+.sentence-container span.word {
+  background-color: white;
+}
+
+.sentence-container span.word:hover {
+  box-shadow: none;
+}
+
+.sentence-container span.word:hover span.word-close {
+  visibility: visible;
+}
