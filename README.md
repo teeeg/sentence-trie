@@ -7,4 +7,6 @@ See [demo](http://teeeg.github.io/sentence-trie/) for the parsed text of [Grimm'
 - /sentree.js : library to parse a sample body of text into a prefix-trie 
 - /build/app.js : React.js interface leveraging sentree.js for find operations 
 
-This project was born out of the idea that you could create an interface that would allow a user to quicky compose sentences with minimal touch input based on previous phrase constructs (often called a corpus). Email or texting could be a valuable application -- or if you wanted to restrict user vocabulary to defined set of possibilities that still allowed for permutations. 
+This quick concept was born out of the idea that you could create an interface that would allow a user to quicky compose sentences with minimal touch input. The predictions are based on a body of text (often called a corpus). Any corpus can be used but here I tried it out with the complete text of Grimm's Fairy Tales ... try composing the sentence 'Hanzel and ... ' 
+
+Email or texting could be a valuable application -- or if you wanted to restrict user vocabulary to defined set of words/phrases that still allowed for some permutations
