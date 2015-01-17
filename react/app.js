@@ -69,7 +69,7 @@ var Balard = React.createClass({
   componentDidMount: function() {
     $.ajax({
       type: 'GET',
-      url: './corpus.txt',
+      url: './grimms.txt',
       success: function(data) {
         this.state.trie.addTextSample(data);
         this.refreshDictionary();
